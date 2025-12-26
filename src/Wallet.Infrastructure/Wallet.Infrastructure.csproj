@@ -11,4 +11,8 @@
       <ProjectReference Include="..\Wallet.Domain\Wallet.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="HolyBTC.BitcoinLib" Version="1.0.3" />
+    </ItemGroup>
+
 </Project>

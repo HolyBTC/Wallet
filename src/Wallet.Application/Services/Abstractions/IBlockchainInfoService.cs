@@ -2,5 +2,5 @@
 
 public interface IBlockchainInfoService
 {
-    Task GetBlockCountAsync(CancellationToken cancellationToken = default);
+    Task<ulong> GetBlockCountAsync(CancellationToken cancellationToken = default);
 }
